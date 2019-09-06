@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.033 sec <<< FAILURE! - in TestSuite
+feature(Runner.DefaultRunner)  Time elapsed: 100.188 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NWEDL-CKYX1N2', ip: '10.0.248.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\ca2543\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35cef962907deeb40ec40ce97da19fbd
+
+feature(Runner.DefaultRunner)  Time elapsed: 124.289 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NWEDL-CKYX1N2', ip: '10.0.248.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\ca2543\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50757}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3ca4f21c9ceb3b8e45d92c8694ae221
+*** Element info: {Using=id, value=ADMIN}
+
